@@ -1,0 +1,84 @@
+==============================================================================
+puntuacions=fitxer "ratings.dat" 
+format:
+******************************************************************************
+UserID :: MovieID :: Rating :: Timestamp
+
+- UserIDs (1 i 6040)
+- MovieIDs (1 i 3952)
+- Les puntuacions es fan en una escala de 5 estrelles (només estrelles 
+de puntuació única).
+- La marca de temps està representada en qüestió de segons des de l'època 
+retornada per temps (2).
+- Cada usuari té almenys 20 puntuacions.
+==============================================================================
+informació de l'usuari=fitxer "users.dat"
+format:
+******************************************************************************
+UserID :: Gènere :: Edat :: Ocupació :: Codi postal
+
+- El gènere es denota per una "M" masculina i "F" per a dona
+
+- Edat escollida entre els següents rangs:
+
+1: "Menors de 18 anys"
+18: "18-24"
+25: "25-34"
+35: "35-44"
+45: "45-49"
+50: "50-55"
+56: "56+"
+
+- L'ocupació es tria entre les següents opcions:
+
+* 0: "altre" o no especificat
+* 1: "acadèmic / educador"
+* 2: "artista"
+* 3: "clerical / admin"
+* 4: "estudiant universitari / graduat"
+* 5: "servei al client"
+* 6: "metge / atenció sanitària"
+* 7: "executiu / directiu"
+* 8: "agricultor"
+* 9: "fabricant de casa"
+* 10: "Estudiant de K-12"
+* 11: "advocat"
+* 12: "programador"
+* 13: "jubilat"
+* 14: "vendes / màrqueting"
+* 15: "científic"
+* 16: "autònoms"
+* 17: "tècnic / enginyer"
+* 18: "comerciant / artesà"
+  19: "desocupats"
+* 20: "escriptor"
+==============================================================================
+informació pel·lícula=arxiu "movies.dat"
+format:
+******************************************************************************
+MovieID :: Títol :: Gèneres
+
+- Els títols són idèntics als títols proporcionats per l'IMDB (inclosos
+any de llançament)
+- Els gèneres estan separats per canonades i es seleccionen entre els 
+següents gèneres:
+
+	* Action
+	* Adventure
+	* Animation
+	* Children's
+	* Comedy
+	* Crime
+	* Documentary
+	* Drama
+	* Fantasy
+	* Film-Noir
+	* Horror
+	* Musical
+	* Mystery
+	* Romance
+	* Sci-Fi
+	* Thriller
+	* War
+	* Western
+==============================================================================
