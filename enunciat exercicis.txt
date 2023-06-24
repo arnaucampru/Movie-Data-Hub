@@ -1,0 +1,15 @@
+1. De quin any és la pelicula 'Alien'?
+2. En quina década es van fer mes cine negre?
+3. Quin rang d'edat és el més poblat dels usuaris femenins que son escriptores, i quantes n'hi ha?
+4. Quantes películes de terror tenim a la base de dades? Retorneu també els seus títols
+5. Retornar una llista ordenada alfabéticament de les películes musicals anteriors a 1950 on el títol tingui 3 paraules o menys
+6. Quin és l'usuari que ha puntuat més películes? Donar tota la seva informació (id, genere, edat, professió i codi postal)
+7. De mitja, quina puntuació han posat els homes i les dones a la película Reservoir Dogs?
+8. Quina és la película on hi ha més disparitat de puntacions mitjes entre homes i dones? Només hem de tenir en compte películes que tinguem mes de tres puntuacions fetes tant per homes com per dones. Donar el llistat de puntacions de cada un dels generes.
+9. Quina és la película de ciència ficció més ben puntuada pels científics, que al menys hagi rebut 3 puntuacions de científics?
+10. Quina és la película pitjor puntuada de mitja per la gent més gran de 45 anys?
+11. Donar la llista d'usuaris que hagin puntuat amb un 3 o mes les següents pel·lícules: 'Maximum Overdrive', 'Blade', 'Willow' i 'Halloween II'
+12. Donar la llista de les 3 millors películes per categoría
+13. Quins son els usuaris que de mitja han donat millors i pitjors puntuacions
+14. Quina és la pel·lícula amb major desviació estàndard en puntuacions?
+15. Quina és la puntuació mitja que reben les segones parts? Considerarem que es tracta d'una segona part si una de les paraules del títol és un "II" o un "2".
